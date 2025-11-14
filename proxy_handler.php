@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
     
-    $apiUrl = 'https://beststripe-5.onrender.com/key=blaze/gate=stripeauth?cc=' . urlencode($cardData);
+    $apiUrl = 'https://stripe.stormx.pw/gateway=autostripe/key=darkboy/site=mrkustom.com/cc=' . urlencode($cardData);
     error_log("[" . date('Y-m-d H:i:s') . "] API URL: " . $apiUrl);
     
     if (function_exists('curl_init')) {
